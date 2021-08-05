@@ -1,3 +1,7 @@
+.nav-links li {
+    display: inline;
+	padding-right: 2rem;
+}
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
