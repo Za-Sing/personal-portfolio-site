@@ -9,7 +9,8 @@ import * as React from "react";
 import PropTypes from "prop-types";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import Header from "./header";
-import {navLinks} from "./layout.module.css";
+import LinkBar from "./linkbar";
+import "./layout.module.css";
 
 const Layout = ({ children }) => {
 	const data = useStaticQuery(graphql`
@@ -25,16 +26,7 @@ const Layout = ({ children }) => {
 	return (
 		<>
 			<Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-			<header>
-                <nav className={navLinks}>
-                        <ul>
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/cv">CV</Link></li>
-                            <li><Link to="/projects">Projects</Link></li>
-                            <li><Link to="/about">About</Link></li>
-                        </ul>
-                    </nav>
-            </header>
+			<LinkBar/>
             <div 
 				style={{
 					margin: `0 auto`,
