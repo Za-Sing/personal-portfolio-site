@@ -24,32 +24,25 @@ const Layout = ({ children }) => {
 	`);
 
 	return (
-		<>
+		<div style={{position: 'relative', minHeight: '100vh'}}>
 			<Header siteTitle={data.site.siteMetadata?.title || `Title`} />
 			<LinkBar/>
             <div 
 				style={{
-					margin: `0 auto`,
 					maxWidth: 1500,
-					padding: `0 1.0875rem 1.45rem`,
-				}} 
-			>
+					padding: `1.25rem 1.25rem 1.5rem`,
+				}}
+            >
 				<main>
-                    
-                    
                     {children}
                 </main>
-				<footer
-					style={{
-						marginTop: `2rem`,
-					}}
-				>
+				<footer>
 					© {new Date().getFullYear()}, Built with
 					{` `}
-					<a href="https://www.gatsbyjs.com">Gatsby</a>
+					<a href="https://github.com/gatsbyjs/gatsby-starter-default">Gatsby's Default Starter</a>
 				</footer>
 			</div>
-		</>
+		</div>
 	);
 };
 
