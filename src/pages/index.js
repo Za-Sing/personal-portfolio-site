@@ -7,17 +7,16 @@ import Seo from "../components/seo";
 const IndexPage = () => (
 	<Layout>
 		<Seo title="Home Page" />
-		<h1></h1>
-        <h2>My name is Zachary Singleton. Welcome to my site!</h2>
-		<p><br></br>
+        <h1>My name is Zachary Singleton. Welcome to my site!</h1>
+		<p>
 			I am a Computer Science student seeking full-time positions in Software
 			Engineering.
-		</p><br></br>
-        <div style={{display: 'block', paddingTop: '2rem', borderStyle: 'solid'}}>
-            <p style={{paddingLeft: '1rem', lineHeight: '200%'}}>
-			    "If you want something you've never had, you must be willing to do something
-			    you've never done."<br></br>— Thomas Jefferson
-		    </p>
+		</p>
+        <div style={{background: 'lightgrey', border: 'outset 0.5rem steelblue', display: 'inline-block'}}>
+            <p style={{margin: '0', paddingLeft: '10rem', paddingRight: '10rem', lineHeight: '120%', fontSize: '2rem', verticalAlign: 'middle', textAlign: 'center'}}>    
+                "If you want something you've never had, you must be willing to do something
+			    you've never done."<br></br><br></br>— Thomas Jefferson
+            </p>
         </div>
 	</Layout>
 );

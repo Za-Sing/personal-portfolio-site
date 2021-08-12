@@ -1,19 +1,17 @@
 .nav-links ul {
 	list-style-type: none;
-	margin: 0;
-    margin-left: 10%;
 	padding: 0;
 	overflow: hidden;
+    text-align: center;
 }
 .nav-links li {
-	float: left;
-	padding-right: 2rem;
-	vertical-align: middle;
+    display: inline-block; 
+    float: none;
+    padding-right: 2rem;
 }
 .nav-links-text {
     display: block;
 	color: white;
-    text-align: center;
 	padding: 0.5rem;
     padding-inline: 1rem;
 	text-decoration: none;
@@ -114,6 +112,7 @@ h1 {
 	text-rendering: optimizeLegibility;
 	font-size: 2.25rem;
 	line-height: 1.1;
+    text-align: center;
 }
 mark {
 	background-color: #ff0;
@@ -292,6 +291,7 @@ h2 {
 	text-rendering: optimizeLegibility;
 	font-size: 1.62671rem;
 	line-height: 1.1;
+    text-align: center;
 }
 h3 {
 	margin-left: 0;
@@ -308,6 +308,7 @@ h3 {
 	text-rendering: optimizeLegibility;
 	font-size: 1.38316rem;
 	line-height: 1.1;
+    text-align: center;
 }
 h4 {
 	margin-left: 0;
@@ -324,6 +325,7 @@ h4 {
 	text-rendering: optimizeLegibility;
 	font-size: 1rem;
 	line-height: 1.1;
+    text-align: center;
 }
 h5 {
 	margin-left: 0;
@@ -340,6 +342,7 @@ h5 {
 	text-rendering: optimizeLegibility;
 	font-size: 0.85028rem;
 	line-height: 1.1;
+    text-align: center;
 }
 h6 {
 	margin-left: 0;
@@ -356,6 +359,7 @@ h6 {
 	text-rendering: optimizeLegibility;
 	font-size: 0.78405rem;
 	line-height: 1.1;
+    text-align: center;
 }
 hgroup {
 	margin-left: 0;
@@ -420,6 +424,7 @@ p {
 	padding-right: 0;
 	padding-top: 0;
 	margin-bottom: 1.45rem;
+    text-align: center;
 }
 pre {
 	margin-left: 0;
