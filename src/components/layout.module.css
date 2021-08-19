@@ -43,6 +43,7 @@ body {
 footer {
     position: absolute;
     bottom: 0;
+    padding-top: 2rem;
     height: 2.5rem;
     font-size: small;
 }
