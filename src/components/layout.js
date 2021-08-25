@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
 	`);
 
 	return (
-		<div style={{position: 'relative', minHeight: '100vh'}}>
+		<div style={{background: 'ghostwhite', position: 'relative', minHeight: '100vh'}}>
 			<Header siteTitle={data.site.siteMetadata?.title || `Title`} />
 			<LinkBar/>
             <div 
@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
                     {children}
                 </main>
 				<footer>
-					© {new Date().getFullYear()}, Built with
+					© {new Date().getFullYear()}, Built from
 					{` `}
 					<a href="https://github.com/gatsbyjs/gatsby-starter-default">Gatsby's Default Starter</a>
 				</footer>
