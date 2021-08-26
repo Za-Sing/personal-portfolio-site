@@ -21,16 +21,17 @@
 }
 .prof-experience {
     margin: auto;
-    width: 50rem;
-    text-align: left;
+    max-width: 66rem;
 }
 .prof-experience td {
     text-align: left;
-    height: 10rem;
+    height: 12rem;
+    max-width: 30rem; 
 }
 .prof-experience td + td {
     text-align: right;
-    height: 10rem;
+    height: 12rem;
+    max-width: 30rem;
 }
 html {
 	-ms-text-size-adjust: 100%;

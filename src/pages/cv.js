@@ -1,21 +1,28 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { profExperience } from "../components/layout.module.css"
+import { profExperience } from "../components/layout.module.css";
 
 const CVPage = () => (
 	<Layout>
 		<Seo title="My CV" />
 		<h1>Professional Experience</h1>
-		<table className={ profExperience }>
+        <br></br>
+		<table className={profExperience}>
 			<tr>
 				<td>
 					Quality Assurance Analyst<br></br>
-					<a href="https://www.nextep.com/">Nextep Inc</a><br></br>
+					<a href="https://www.nextep.com/">Nextep Inc</a>
+					<br></br>
 					March 2021 — Present
 				</td>
 				<td>
-                    I do stuff and things at Nextep
+                    <ul>
+                        <li>Spearheaded use of Selenium Webdriver for automated web testing</li>
+                        <li>Set up Allure Framework test reporting for Selenium tests</li>
+						<li>Perform manual testing on company website and processes</li>
+                        <li>Perform Business Analyst tasks such as writing reports and documentation, and enhancing company systems outside of code</li>
+					</ul>
                 </td>
 			</tr>
 			<tr>
@@ -25,18 +32,26 @@ const CVPage = () => (
 					August 2019 — May 2021
 				</td>
 				<td>
-                    I did stuff and things at OU
-                </td>
+					<ul>
+						<li>Check out equipment for students and faculty</li>
+						<li>Run refresh software on school tablets, update and upkeep school laptops</li>
+						<li>Assist with IT support such as presentation tech and education software</li>
+					</ul>
+				</td>
 			</tr>
-            <tr>
+			<tr>
 				<td>
-                    Sales Associate<br></br>
-                    Walmart Inc<br></br>
-                    May 2019 — August 2019, May 2020 — August 2020
+					Sales Associate<br></br>
+					Walmart Inc<br></br>
+					May 2019 — August 2019, May 2020 — August 2020
 				</td>
 				<td>
-                    I did stuff and things at Walmart
-                </td>
+					<ul>
+						<li>Stocked shelves and kept department tidy</li>
+						<li>Assisted customers with locating items and pricing</li>
+						<li>Aided other departments with freight and helped with returns</li>
+					</ul>
+				</td>
 			</tr>
 		</table>
 	</Layout>
