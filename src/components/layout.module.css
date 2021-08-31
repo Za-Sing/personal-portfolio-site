@@ -22,6 +22,7 @@
 .prof-experience {
     margin: auto;
     max-width: 66rem;
+    padding-bottom: 2rem;
 }
 .prof-experience td { /*Left column*/
     text-align: left;

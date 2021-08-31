@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
 			<LinkBar/>
             <div 
 				style={{
-					padding: `1.25rem 1.25rem 2.5rem`
+					padding: `1.25rem 1.25rem 4rem`
 				}}
             >
 				<main>
