@@ -16,9 +16,8 @@ const CVPage = () => (
 					March 2021 — Present
 				</td>
 				<td>
-                    <ul>
-                        <li>Spearheaded use of Selenium Webdriver for automated web testing</li>
-                        <li>Set up Allure Framework test reporting for Selenium tests</li>
+                    <ul style={{listStyleType: 'none'}}>
+                        <li>Set up automated web testing software and write test code</li>
 						<li>Perform manual testing on company website and processes</li>
                         <li>Perform Business Analyst tasks such as writing reports and documentation, and enhancing company systems outside of code</li>
 					</ul>
@@ -31,10 +30,10 @@ const CVPage = () => (
 					August 2019 — May 2021
 				</td>
 				<td>
-					<ul>
+					<ul style={{listStyleType: 'none'}}>
+                        <li>Provide IT support when needed for classroom presentation technology and education software</li>
 						<li>Check out equipment for students and faculty</li>
-						<li>Run refresh software on school tablets, update and upkeep school laptops</li>
-						<li>Assist with IT support such as presentation tech and education software</li>
+                        <li>Perform maintenance on school tablets and latptops including updating, refreshing, and re-imaging.</li>
 					</ul>
 				</td>
 			</tr>
@@ -45,10 +44,10 @@ const CVPage = () => (
 					May 2019 — August 2019, May 2020 — August 2020
 				</td>
 				<td>
-					<ul>
-						<li>Stocked shelves and kept department tidy</li>
-						<li>Assisted customers with locating items and pricing</li>
-						<li>Aided other departments with freight and helped with returns</li>
+					<ul style={{listStyleType: 'none'}}>
+                        <li>Maintain department by merchandising and stocking shelves</li>
+						<li>Assist customers by answering questions about products and merchandising</li>
+						<li>Coordinate with other departments for freight and online shopping</li>
 					</ul>
 				</td>
 			</tr>

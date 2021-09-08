@@ -31,7 +31,7 @@
     line-height: 200%;
 }
 .prof-experience td + td { /*Right column*/
-    text-align: right;
+    text-align: left;
     height: 12rem;
     max-width: 30rem;
     line-height: 150%;
