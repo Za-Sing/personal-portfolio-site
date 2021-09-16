@@ -33,7 +33,7 @@ const CVPage = () => (
 					<ul style={{listStyleType: 'none'}}>
                         <li>Provide IT support when needed for classroom presentation technology and education software</li>
 						<li>Check out equipment for students and faculty</li>
-                        <li>Perform maintenance on school tablets and latptops including updating, refreshing, and re-imaging.</li>
+                        <li>Perform maintenance on school tablets and laptops including updating, refreshing, and re-imaging.</li>
 					</ul>
 				</td>
 			</tr>
