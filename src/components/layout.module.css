@@ -36,6 +36,20 @@
     max-width: 30rem;
     line-height: 150%;
 }
+.prof-skills {
+    margin: auto;
+    max-width: 66rem;
+}
+.prof-skills td { /*Left column*/
+    text-align: left;
+    height: 12rem;
+    line-height: 150%;
+}
+.prof-skills td + td { /*Right column*/
+    text-align: left;
+    height: 12rem;
+    line-height: 150%;
+}
 html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;

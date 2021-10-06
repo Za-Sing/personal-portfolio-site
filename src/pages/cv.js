@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { profExperience } from "../components/layout.module.css";
+import { profExperience, profSkills } from "../components/layout.module.css";
 
 const CVPage = () => (
 	<Layout>
@@ -52,6 +52,33 @@ const CVPage = () => (
 				</td>
 			</tr>
 		</table>
+
+        <h1 style={{paddingTop: '3rem'}}>Professional Skills</h1>
+        <br></br>
+        <table className={profSkills}>
+			<tr>
+				<td>
+					<ul style={{listStyleType: 'none', paddingLeft: '15rem'}}>
+                        <li>Team Building</li>
+						<li>Multitasking</li>
+                        <li>Problem-solving</li>
+                        <li>Motivated</li>
+                        <li>Results-driven</li>
+                        <li>Analytical</li>
+					</ul>
+				</td>
+				<td>
+                    <ul style={{listStyleType: 'none', paddingLeft: '10rem'}}>
+                        <li>C++, Java, Python, and React + Gatsby</li>
+						<li>Selenium Webdriver tools</li>
+                        <li>Salesforce Admin tools</li>
+                        <li>Proficient with Linux</li>
+						<li>Proficient with Microsoft Office</li>
+                        <li>Customer-focused service</li>
+					</ul>
+                </td>
+			</tr>
+        </table>
 	</Layout>
 );
 

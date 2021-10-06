@@ -1,11 +1,12 @@
 General TODO List:
-Last update 8/30
+Last update 10/05
 
 [*] Reword bullet points on CV page
-[ ] Add Skills section to CV page
-[ ] Update resume and link it to CV or About page
-[ ] Modernize quote block on index
-[ ] Add linkedin and github to footer?
-[ ] Finalize "logo" and add to header
+[*] Add Skills section to CV page
+[ ] Reword Skills bullet points
 [ ] Add projects to Projects page
+[ ] Update resume and link it to CV or About page
 [ ] Get a new headshot and add to About page, as well as "fun facts"
+[ ] Add linkedin, github and email to About
+[ ] Modernize quote block on index
+[ ] Finalize "logo" and add to header
