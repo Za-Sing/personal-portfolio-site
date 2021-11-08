@@ -50,6 +50,21 @@
     height: 12rem;
     line-height: 150%;
 }
+.project-card {
+    width: 12rem;
+    height: 4rem;
+    border: 0.25rem solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+a:link {
+    text-decoration: none;
+    color: steelblue;
+}
+a:visited {
+    color: steelblue;
+}
 html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;

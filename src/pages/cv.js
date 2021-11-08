@@ -19,7 +19,7 @@ const CVPage = () => (
                     <ul style={{listStyleType: 'none'}}>
                         <li>Set up automated web testing software and write test code</li>
 						<li>Perform manual testing on company website and processes</li>
-                        <li>Perform Business Analyst tasks such as writing reports and documentation, and enhancing company systems outside of code</li>
+                        <li>Work with Business Analysts on tasks such as writing reports and documentation, and enhancing company systems outside of code</li>
 					</ul>
                 </td>
 			</tr>
