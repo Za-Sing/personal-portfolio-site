@@ -23,14 +23,26 @@ const ProjectPage = () => (
 			</li>
             <li>
 				<div className={projectCard}>
-					<p>
-						<a href="https://github.com/bentonsmith8/SoonerRoverTeamV" target="_blank">
-							Sooner Rover Team
-						</a>
+					<a href="https://github.com/RezaTorbati/ComputerSecurityProject" target="_blank">
+						Computer Security Project
+					</a>
+                    <p style={{fontSize: '11pt'}}>
+                        Three different ways of detecting adversarial image attacks on object detection AI
+					</p>				
+                </div>
+			</li>
+            <li>
+				<div className={projectCard}>
+                    <p>
+                        <a href="https://github.com/bentonsmith8/SoonerRoverTeamV" target="_blank">
+						    Sooner Rover Team
+					    </a>
+                        <br></br>
+                        The codebase for OU's Sooner Rover Team, of which I worked on the Autonomous code
 					</p>
 				</div>
 			</li>
-            <li>
+            {/*<li>
 				<div className={projectCard}>
 					<p>
 						<a href="https://github.com/Za-Sing/3D-Particle-Simulation" target="_blank">
@@ -38,7 +50,7 @@ const ProjectPage = () => (
 						</a>
 					</p>
 				</div>
-			</li>
+			</li>*/}
             <li>
 				<div className={projectCard}>
 					<p>

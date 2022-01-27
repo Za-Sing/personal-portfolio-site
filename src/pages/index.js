@@ -9,8 +9,7 @@ const IndexPage = () => (
 		<Seo title="Home Page" />
         <h1>My name is Zachary. Welcome to my site!</h1>
 		<p>
-			I am a Computer Science student seeking full-time positions in Software
-			Engineering.
+			I am a full time Computer Science student at the University of Oklahoma, graduating in May 2022.
 		</p>
         {/*This is the quote block on the page*/}
         <div style={{background: 'gainsboro', border: '1rem groove steelblue', borderRadius: '0.5rem', display: 'inline-block'}}>
